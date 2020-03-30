@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bfc03318-17a3-4889-a16a-900de006abf5" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="JupyterTrust" id="31b76c39-724e-4287-ab3b-7def990a4b06" />
+  <component name="ProjectId" id="1ZpQTdrNKa4mvqqLRXNEzDS10fU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RunManager">
+    <configuration name="open_pages" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="competition-entering" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="MKL_DEBUG_CPU_TYPE" value="5" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/open_pages.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.open_pages" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bfc03318-17a3-4889-a16a-900de006abf5" name="Default Changelist" comment="" />
+      <created>1585533564383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585533564383</updated>
+      <workItem from="1585533568398" duration="585000" />
+      <workItem from="1585534497696" duration="1217000" />
+      <workItem from="1585606496476" duration="624000" />
+      <workItem from="1585607144185" duration="3575000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1286" y="311" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585607278570">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1286" y="311" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1585607278570" />
+    <state x="1016" y="501" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585607769237">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1016" y="501" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1337@0.23.2560.1337" timestamp="1585607769237" />
+    <state x="1576" y="421" key="EnvironmentVariablesDialog" timestamp="1585607270982">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1576" y="421" key="EnvironmentVariablesDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1585607270982" />
+    <state x="1708" y="453" key="FileChooserDialogImpl" timestamp="1585533926670">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1708" y="453" key="FileChooserDialogImpl/0.23.2560.1337@0.23.2560.1337" timestamp="1585533926670" />
+    <state width="2518" height="382" key="GridCell.Tab.0.bottom" timestamp="1585611081847">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="382" key="GridCell.Tab.0.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1585611081847" />
+    <state width="2518" height="382" key="GridCell.Tab.0.center" timestamp="1585611081846">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="382" key="GridCell.Tab.0.center/0.23.2560.1337@0.23.2560.1337" timestamp="1585611081846" />
+    <state width="2518" height="382" key="GridCell.Tab.0.left" timestamp="1585611081846">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="382" key="GridCell.Tab.0.left/0.23.2560.1337@0.23.2560.1337" timestamp="1585611081846" />
+    <state width="2518" height="382" key="GridCell.Tab.0.right" timestamp="1585611081847">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="382" key="GridCell.Tab.0.right/0.23.2560.1337@0.23.2560.1337" timestamp="1585611081847" />
+    <state width="2518" height="469" key="GridCell.Tab.1.bottom" timestamp="1585535794946">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.1.bottom/0.23.2560.1337@0.23.2560.1337" timestamp="1585535794946" />
+    <state width="2518" height="469" key="GridCell.Tab.1.center" timestamp="1585535794945">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.1.center/0.23.2560.1337@0.23.2560.1337" timestamp="1585535794945" />
+    <state width="2518" height="469" key="GridCell.Tab.1.left" timestamp="1585535794944">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.1.left/0.23.2560.1337@0.23.2560.1337" timestamp="1585535794944" />
+    <state width="2518" height="469" key="GridCell.Tab.1.right" timestamp="1585535794945">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state width="2518" height="469" key="GridCell.Tab.1.right/0.23.2560.1337@0.23.2560.1337" timestamp="1585535794945" />
+    <state x="1429" y="330" key="SettingsEditor" timestamp="1585534136001">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1429" y="330" key="SettingsEditor/0.23.2560.1337@0.23.2560.1337" timestamp="1585534136001" />
+    <state x="1613" y="524" key="com.intellij.ide.util.TipDialog" timestamp="1585607147555">
+      <screen x="0" y="23" width="2560" height="1337" />
+    </state>
+    <state x="1613" y="524" key="com.intellij.ide.util.TipDialog/0.23.2560.1337@0.23.2560.1337" timestamp="1585607147555" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/competition_entering$open_pages.coverage" NAME="open_pages Coverage Results" MODIFIED="1585609816530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
