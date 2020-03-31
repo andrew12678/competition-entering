@@ -24,7 +24,25 @@ def open_window(links):
     browser.switch_to.window(browser.window_handles[i])
     browser.get(links[i])
     i += 1
-  sleep(60 * 10)
+  sleep_time = 60 * 5 * len(links)
+  print(f'Browser will automatically close after {sleep_time} minutes')
+  sleep(sleep_time)
+
+
+def find_links(browser, oz_url):
+    browser.get(oz_url)
+    elements = browser.find_elements_by_xpath('//*[@id="main"]/div[1]/div')
+
+    links = []
+    for ele in elements:
+        try:
+            words = ele.text
+            if "Purchase" not in words and "Today" in words:
+                links.append(ele.find_element_by_tag_name('a').get_attribute('href'))
+        except NoSuchElementException:
+            pass
+    return links
+
 
 
 
@@ -38,19 +56,22 @@ if platform.system() == 'Windows':
     browser = webdriver.Chrome(executable_path='./chromedriver.exe', options=options)
 else:
     browser = webdriver.Chrome(executable_path='./chromedriver', options=options)
-browser.get('https://www.ozbargain.com.au/competition/closing')
 
-elements = browser.find_elements_by_xpath('//*[@id="main"]/div[1]/div')
-
-links = []
-for ele in elements:
-    try:
-        words = ele.text
-        if "Purchase" not in words and "Today" in words:
-            links.append(ele.find_element_by_tag_name('a').get_attribute('href'))
-    except NoSuchElementException:
-        pass
+total_links = []
+i = 0
+first_page = 'https://www.ozbargain.com.au/competition/closing'
+next_pages = 'https://www.ozbargain.com.au/competition/closing?page={}'
+while True:
+    if i == 0:
+        links = find_links(browser, first_page)
+    else:
+        links = find_links(browser, next_pages.format(i))
+    if len(links) == 0:
+        break
+    else:
+        total_links += links
+    i += 1
 
 browser.quit()
-print(links)
-open_window(links)
+print(total_links)
+open_window(total_links)
