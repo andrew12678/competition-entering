@@ -25,7 +25,7 @@ def open_window(links):
     browser.get(links[i])
     i += 1
   sleep_time = 60 * 5 * len(links)
-  print(f'Browser will automatically close after {sleep_time} minutes')
+  print(f'Browser will automatically close after {sleep_time / 60} minutes')
   sleep(sleep_time)
 
 
